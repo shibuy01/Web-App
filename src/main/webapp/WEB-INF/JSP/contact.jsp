@@ -32,7 +32,7 @@
 		    	<input type="text"
 		    	 class="form-control" 
 		    	 id="userName" 
-		    	 name="name"
+		    	 name="userName"
 		    	 aria-describedby="emailHelp">
   			</div>
   			
