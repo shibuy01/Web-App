@@ -13,6 +13,11 @@ import com.spring.mvc.model.User;
 @Controller
 public class ContactController {
 
+	@ModelAttribute
+	public void commonDataForModel(Model m) {
+		m.addAttribute("Heading", "Details Form");
+		m.addAttribute("Desc", "Fill Correct");
+	}
 	
 	@RequestMapping("/contact")
 	public String showForm() {
