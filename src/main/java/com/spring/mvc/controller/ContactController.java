@@ -33,7 +33,7 @@ public class ContactController {
 	public String handleForm(@ModelAttribute("user") User user , Model model) {
 		System.out.println(user);
 		int createdUser = this.userService.creareUser(user);
-		model.addAttribute("msg", "User Created with id"+createdUser);
+		model.addAttribute("msg", "User Created with id "+createdUser);
 		return"success";
 	}
 }

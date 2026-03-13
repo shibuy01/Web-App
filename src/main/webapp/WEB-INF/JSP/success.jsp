@@ -11,7 +11,7 @@
 
 <h3 class="text-center">${Heading}</h3>
  <p class="text-center">${Desc}</p>
- <h5 style="color:green">${msg}</h5>
+ <h3 style="color:green">${msg}</h3>
  <hr>
 
 <h2>Welcome  , ${user.userName} Kumar</h2>
